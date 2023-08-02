@@ -54,7 +54,7 @@ function ChangeData() {
             markedCount++;
             if (markedCount >= 5) {
               // Five checkboxes are marked, show the popup message
-              showPopupMessage('Five checkboxes are marked!');
+              showPopupMessage('Congrats! You have completed 5 tasks.');
             }
           } else {
             markedCount--;
